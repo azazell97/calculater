@@ -1,0 +1,53 @@
+nav{
+  background:skyblue;
+  padding: 10px;
+}
+body{
+  margin: 0;
+  user-select: none;
+}
+nav span{
+  border-radius: 17px;
+  transition: .5s;
+  margin: 5px;
+  padding: 5px;
+  color: azure;
+}
+nav span:hover{
+  cursor: pointer;
+  /* color: black; */
+  background: white;
+  color: blue;
+}
+
+div{
+  height: 250px;
+  width: 200px;
+  background: rgba(213, 135, 135, 0.666);
+  margin: 20px;
+  border-radius: 10px;
+  /* text-align: center; */
+  padding: 3px;
+}
+button{
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  transition: all 1.5s;
+ 
+}
+button:hover{
+  background: rgb(24, 223, 203);
+  color: rgb(212, 25, 112);
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+input{
+  border: none;
+  padding: 7px;
+  margin: 5px;
+  border-radius: 7px;
+}
